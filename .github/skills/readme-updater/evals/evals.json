@@ -1,0 +1,17 @@
+{
+  "skill_name": "readme-updater",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "This repo doesn't really have a proper README, can you write one that explains what's in here?",
+      "expected_output": "A README.md at the repo root describing the repository's actual structure and purpose, based on exploring the real contents (not a generic template).",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Our README is super out of date, it doesn't mention half the folders in the project anymore. Can you fix it up?",
+      "expected_output": "The existing README.md is updated to reflect the current repository structure, preserving still-accurate content (like license/contributing info) while correcting or adding descriptions of folders/components that were missing or stale.",
+      "files": []
+    }
+  ]
+}
